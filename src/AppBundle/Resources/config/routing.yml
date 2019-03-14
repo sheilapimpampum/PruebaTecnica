@@ -1,0 +1,11 @@
+admin:
+  path:     /admin
+  defaults: { _controller: AppBundle:Admin:Admin }
+  requirements:
+    _method: GET
+
+admin_test:
+  path:     /admin/testlogin
+  defaults: { _controller: AppBundle:Admin:AdminTestlogin }
+  requirements:
+    _method: GET
