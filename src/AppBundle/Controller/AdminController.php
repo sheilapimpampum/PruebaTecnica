@@ -16,7 +16,7 @@ class AdminController extends Controller
 {
     public function AdminAction(){
         return new Response(
-            '<html><body>Eres ROLE_USER o ROLE_ADMIN</body></html>'
+            '<html><body>Eres ROLE_ADMIN o ROLE_SUPER_ADMIN</body></html>'
         );
 
     }
